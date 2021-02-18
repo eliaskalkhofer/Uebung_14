@@ -18,7 +18,7 @@ public class TheMain extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/viewcontrol/ViewPhonebook.fxml"));
         primaryStage.setTitle("Telefonbuch");
-        primaryStage.setScene(new Scene(root, 800, 600));
+        primaryStage.setScene(new Scene(root, 900, 600));
         primaryStage.show();
     }
 
